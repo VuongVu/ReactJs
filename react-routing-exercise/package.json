@@ -1,0 +1,29 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "react with watchify, babelify and node",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VuongVu/react-skeleton.git"
+  },
+  "author": "Vuong Vu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VuongVu/react-skeleton/issues"
+  },
+  "homepage": "https://github.com/VuongVu/react-skeleton#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "history": "^2.0.1",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-router": "^2.0.1",
+    "watchify": "^3.7.0"
+  }
+}
